@@ -12,7 +12,31 @@
     <body>
         <header class="layout-cabecalho">
             <div class="container">
-                <img src="img/logo.png" width="100" height="35" alt="MyPilas">
+
+                <nav class="navegacao">
+                    <img src="img/logo.png" width="100" height="35" alt="MyPilas">    
+
+                    <div class="navegacao__menu">
+                        <button class="botao-chaveador  js-botao-chaveador"></button>
+
+                        <ul class="menu   menu--exibindo  js-menu">
+                            <li class="menu__item">
+                                <a href="#">Como funciona</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#planos">Planos e preços</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#">Contato</a>
+                            </li>
+                            <li class="menu__item   menu__item--botao">
+                                <a href="#" class="botao   botao--login">Login</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </nav>
+                
             </div>
         </header>
 
@@ -33,7 +57,7 @@
 
         <div class="layout-depoimento">
             <div class="container">
-
+                
                 <div class="depoimento">
                     <blockquote">
                         Eu tinha perdido totalmente o controle da minha empresa.
@@ -41,7 +65,7 @@
                     </blockquote>
 
                     <div class="depoimento__autor">
-                        <img src="imagens/joao-da-silva.jpg" width="180" height="180" alt="João da Silva">
+                        <img src="img/joao-da-silva.jpg" width="180" height="180" alt="João da Silva">
                         <p>João da Silva</p>
                     </div>
                 </div>
@@ -54,6 +78,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-4">
+                        
                         <article class="plano">
                             <h2 class="plano__cabecalho">Autônomo</h2>
                             <div class="plano__preco">R$59/mês</div>
@@ -68,9 +93,11 @@
                                 <a href="assine.html" class="botao botao--assinar">Assinar</a>
                             </footer>
                         </article>
+
                     </div>
                     <div class="col-sm-4">
-                        <article class="plano">
+
+                        <article class="plano  plano--mais-popular">
                             <h2 class="plano__cabecalho">Micro</h2>
                             <div class="plano__preco">R$89/mês</div>
                             <ul class="plano__caracteristicas">
@@ -84,8 +111,9 @@
                                 <a href="assine.html" class="botao botao--assinar">Assinar</a>
                             </footer>
                         </article>
+
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-4   ultima-coluna" >
 
                         <article class="plano">
                             <h2 class="plano__cabecalho">Pequena</h2>
@@ -101,9 +129,19 @@
                                 <a href="assine.html" class="botao botao--assinar">Assinar</a>
                             </footer>
                         </article>
+
                     </div>        
                 </div>
             </div>
         </div>
+
+        <footer class="layout-rodape">
+            <div class="container">
+                <p>&copy; MyPilas. Todos os direitos reservados.</p>
+            </div>
+        </footer>
+
+        <script src="javascripts/app.js"></script>
+
     </body>
 </html>
