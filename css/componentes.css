@@ -7,7 +7,8 @@
   padding: 10px;
   border: 1px solid #95a4a5;
 
-  font-size: 1.4rem; /* 14px */
+  font-size: 1.4rem;
+  /* 14px */
 }
 
 .plano--mais-popular::after {
@@ -20,7 +21,8 @@
   background-color: #c20303;
   color: #fff;
 
-  font-size: 0.7142em; /* 10px */
+  font-size: 0.7142em;
+  /* 10px */
   line-height: 2.5;
 
   content: "MAIS POPULAR";
@@ -55,7 +57,7 @@
   list-style: none;
 }
 
-.plano__caracteristicas > li {
+.plano__caracteristicas>li {
   text-align: center;
 }
 
@@ -64,7 +66,7 @@
 }
 
 @media(max-width: 749px) {
-  .layout-planos .row > div:not(.ultima-coluna) {
+  .layout-planos .row>div:not(.ultima-coluna) {
     margin-bottom: 40px;
   }
 }
@@ -85,19 +87,23 @@
   text-decoration: none;
 }
 
-.botao:hover, .botao:focus {
+.botao:hover,
+.botao:focus {
   background-color: #aaa;
   color: #fff;
 
   text-decoration: none;
 }
 
-.botao--assinar, .botao--login {
+.botao--assinar,
+.botao--login {
   background-color: #127d00;
 }
 
-.botao--assinar:hover, .botao--assinar:focus, 
-  .botao--login:hover, .botao--login:focus {
+.botao--assinar:hover,
+.botao--assinar:focus,
+.botao--login:hover,
+.botao--login:focus {
   background-color: #0e6400;
 }
 
@@ -107,7 +113,8 @@
   background-color: #004b86;
 }
 
-.botao--principal:hover, .botao--principal:focus {
+.botao--principal:hover,
+.botao--principal:focus {
   background-color: #003b6a;
 }
 
@@ -116,7 +123,8 @@
   CHAMADA
 \*--------------------*/
 .chamada {
-  font-size: 1.6rem; /* 1.6 * 10px = 16px */
+  font-size: 1.6rem;
+  /* 1.6 * 10px = 16px */
   text-align: center;
 }
 
@@ -125,7 +133,8 @@
 
   color: #fff;
 
-  font-size: 3.375em; /* 54px / 16px = 3.375 */
+  font-size: 3.375em;
+  /* 54px / 16px = 3.375 */
   line-height: 0.9;
   text-shadow: 1px 1px #313131;
 }
@@ -147,7 +156,8 @@
     padding-left: 10%;
     padding-right: 10%;
 
-    font-size: 2.2rem; /* 2.2 * 10px = 22px */
+    font-size: 2.2rem;
+    /* 2.2 * 10px = 22px */
   }
 }
 
@@ -156,7 +166,8 @@
   DEPOIMENTO
 \*--------------------*/
 .depoimento {
-  font-size: 2.2rem; /* 22px */
+  font-size: 2.2rem;
+  /* 22px */
 }
 
 @media(min-width: 992px) {
@@ -168,7 +179,7 @@
   }
 }
 
-.depoimento > blockquote {
+.depoimento>blockquote {
   position: relative;
 
   margin: 0;
@@ -178,16 +189,17 @@
   font-size: 1em;
 }
 
-.depoimento > blockquote::before {
-   position: absolute;
-   left: 0;
-   top: -0.35em;
+.depoimento>blockquote::before {
+  position: absolute;
+  left: 0;
+  top: -0.35em;
 
-   color: #ccc;
+  color: #ccc;
 
-   font-size: 8em; /* 176px */
+  font-size: 8em;
+  /* 176px */
 
-   content: "\201C";
+  content: "\201C";
 
 }
 
@@ -198,11 +210,11 @@
   font-size: 0.7272em;
 }
 
-.depoimento__autor > img {
+.depoimento__autor>img {
   border-radius: 50%;
 }
 
-.depoimento__autor > p {
+.depoimento__autor>p {
   margin-top: 10px;
 }
 
@@ -210,10 +222,7 @@
   NAVEGAÇÃO
 \*--------------------*/
 
-.navegacao {
-
-
-}
+.navegacao {}
 
 .navegacao__menu {
   float: right;
@@ -247,26 +256,26 @@
 
 .menu {
   margin: 0;
-  
+
   font-size: 1.4rem;
 
   list-style: none;
 }
 
-@media(max-width: 991px){
+@media(max-width: 991px) {
 
   .menu {
     position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
-    
+
     display: none;
-  
+
     width: 200px;
     padding: 20px;
     border-right: 1px solid #eee;
-  
+
     background-color: #fdfdfd;
   }
 
@@ -276,16 +285,16 @@
 
   .menu_item {
     display: block;
-  
+
     line-height: 3;
   }
-  
+
   .menu__item--botao {
     margin-top: 20px;
   }
 }
 
-@media(min-width: 992px){
+@media(min-width: 992px) {
 
   .menu__item {
     display: inline-block;
@@ -305,7 +314,7 @@
 .titulo-formulario {
   margin: 0;
   margin-bottom: 40px;
-  
+
   border-bottom: 1px solid #ccc;
 
   font-size: 2.6rem;
@@ -321,7 +330,7 @@
   margin-bottom: 15px;
 }
 
-.grupo-entrada > label {
+.grupo-entrada>label {
   display: block;
 
   font-weight: bold;
@@ -335,4 +344,12 @@
 .campo {
   display: block;
   width: 100%;
+  height: 2.8em;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+  background-color: #fff;
+
+  font-size: 1.4rem;
 }
